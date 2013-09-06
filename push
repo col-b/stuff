@@ -6,10 +6,8 @@
 ## brief     Simplify the interface to pushbullet
 ##
 ## attention Copyright (C) 2013
-## attention National Robotics Engineering Center
-## attention Carnegie Mellon University
+## attention Chris L Baker (clb)
 ## attention All rights reserved
-## attention Carnegie Mellon Proprietary
 ################################################################/
 
 # The version
@@ -24,7 +22,7 @@ function version()
     echo
     echo "COPYRIGHT"
     echo "        Copyright (C) 2013"
-    echo "        Chris L Baker"
+    echo "        Chris L Baker (clb)"
     echo "        All rights reserved"
     echo
 }
