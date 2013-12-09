@@ -165,3 +165,10 @@ curl "$url" \
     -d title="$subject" \
     -d body="$body" \
     -X POST > /dev/null 2>&1
+rv="$?"
+
+if [[ "$rv" != "0" ]]; then
+    echo " *** ERROR: push failed with return code $rv. See curl documentation for more information"
+fi
+
+exit $rv
