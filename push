@@ -41,7 +41,7 @@ function usage()
     echo "        The file ~./config/pushbullet/pushrc is used for the phone's key and id"
     echo
     echo "DESCIRPTION"
-    echo "        -u=url (default=https://www.pushbullet.com/api/pushes)"
+    echo "        -u=url (default=https://www.pushbullet.com/v2/pushes)"
     echo "            The url to pushbullet"
     echo
     echo "        -k=userkey"
@@ -97,7 +97,7 @@ fi
 
 # defaults
 type="note"
-url="https://api.pushbullet.com/api/pushes"
+url="https://api.pushbullet.com/v2/pushes"
 
 # source config file here so it can be overriden by command line options
 configFile="$HOME/.config/pushbullet/pushrc"
